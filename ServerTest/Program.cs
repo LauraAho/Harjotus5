@@ -17,7 +17,7 @@ namespace ServerTest
             IPAddress address = IPAddress.Parse("127.0.0.1");
             TcpListener tcpListener = new TcpListener(address, 8221);
             tcpListener.Start();
-
+			bool moi = false;
             bool ok = true;
             while(ok)
             {
